@@ -1,0 +1,573 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 35vh;
+    background-image: url("../img/design1_image2.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: xx-large;
+    color: gold;
+    width: 100%;
+    background-color: #112405;
+    padding-top: .5rem;
+    gap: 15rem;
+    font-weight: bolder;
+}
+
+.imgLogo {
+    width: 14.6rem;
+    height: 14.6rem;
+    align-self: flex-end;
+    background-color: black;
+    border: 5px solid gold;
+    border-radius: 20%;
+    margin-top: 5rem;
+    margin-right: 10rem;
+}
+
+h2 {
+    width: 100%;
+    height: 5vh;
+    background-color: #9aff65;
+    color: #112405;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/* nav */
+
+.navMenu {
+    position: sticky;
+    top: 0;
+    margin-top: -1rem;
+    width: 60%;
+    display: flex;
+    min-height: 5vh;
+    gap: 1rem;
+    align-self: flex-end;
+}
+
+.aCaja {
+    text-decoration: none;
+    background-color: rgb(108, 164, 199);
+    color: #fffaf2;   
+    border: none;
+    border-radius: 5px;
+    font-size: x-large;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.aCaja:hover {
+    background-color: #5fa33a;
+    color: #fffaf2;
+    font-weight: bold;
+}   
+
+#active {
+    background-color: #5fa33a;
+    color: #fffaf2;
+    font-weight: bold;
+}
+/* main */
+
+main {
+    background-color: #112405;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    gap: 1.5rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* container */
+
+.container {
+    display: flex;
+}
+
+.anexo {
+    align-self: center;
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+    width: 35%;
+    height: 70%;
+    align-self: flex-end;
+    border: 8px double #878678;
+    border-radius: .7rem;
+}
+
+.anexo2 {
+    margin-left: 10rem;
+    width: 30%;
+    align-self: flex-end;
+    border: 8px double; 
+    border-radius: .7rem;
+}
+
+section {
+    width: 80%;
+    padding-bottom: 2rem;
+}
+
+.txtPrincipal {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10rem;
+    color: #fffaf2;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    font-size: large;
+    margin-top: 2rem;
+}
+
+p {
+    font-size: larger;
+    margin: 0 20px;
+}
+
+.mail, .tel {
+    color: brown;
+    font-weight: bold;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: black;
+}
+
+.imgLogoFooter {
+    width: 5rem;
+    height: 100%;
+    align-self: flex-start;
+    padding-bottom: 8px;
+}
+
+.navRedes {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.aRedes {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: #fffaf2;
+}
+
+.aRedes:hover {
+    background-color: blue;
+    border-radius: 5px;
+    color: #fffaf2;
+    padding: 5px;
+}
+
+#ig:hover {
+    background-color: palevioletred;
+}
+
+#yt:hover {
+    background-color: red;
+}
+
+/* lista */
+
+.anexoInfo {
+    justify-self: flex-start;
+    align-self: center;
+    margin-left: 10rem;
+    width: 30%;
+    height: 60%;
+    border: 8px double #878678;
+    border-radius: .7rem;
+}
+
+.txtPrincipal:not(.tituloSegundo) {
+    gap: 0;
+}
+
+.membrete {
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.minuscula {
+    list-style-type: lower-alpha;
+}
+
+span {
+    font-weight: bold;
+    font-size: larger;
+}
+
+dt {
+    padding: .5rem 0;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+dd {
+    text-indent: 2rem;
+}
+
+dl {
+    padding: 1rem 0;
+}
+
+.mix {
+    text-indent: 0rem;
+}
+
+ol>li {
+    list-style-position: inside;
+}
+
+.mayuscula>li {
+    padding-bottom: 2rem;
+}
+
+ul li {
+    list-style: circle;
+    margin-left: 4rem;
+}
+
+.tituloSegundo {
+    margin-bottom: 1rem;
+}
+
+#item3 {
+    padding-bottom: 0;
+}
+
+/* table */
+
+.anexoRules {
+    justify-self: flex-start;
+    align-self: center;
+    margin-left: 10rem;
+    width: 40%;
+    height: 60%;
+    border: 8px double #878678;
+    border-radius: .7rem;
+}
+
+table {
+    font-size: large;
+    border-collapse: collapse;
+}
+
+.txtTable {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+caption {
+    text-decoration: underline;
+    text-align: left;
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+
+th {
+    padding-top: 1.5rem;
+}
+
+td {
+    padding: .5rem;
+    text-align: center;
+}
+
+.location {
+    text-align: left;
+}
+
+.txtTable2 {
+    font-style: italic;
+}
+
+thead {
+    background-color: black;
+}
+
+tbody {
+    background-color: #fffb5c;
+    color: black;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #9aff65;
+}
+
+tbody td:hover {
+    background-color: sienna;
+    color: #fffaf2;
+}
+
+tfoot {
+    margin-top: 5rem;
+}
+
+tfoot td{
+    text-align: left;
+    font-size: large;
+}
+
+.tFootMail {
+    text-align: right;
+    font-size: medium;
+}
+
+.tf1 {
+    padding-top: 3rem;
+}
+
+/* formulario */
+
+.anexoRegistration {
+    justify-self: flex-start;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    width: 35%;
+    height: 30%;
+    border: 8px double #878678;
+    border-radius: .7rem;
+}
+
+.formTitle {
+    background-color: transparent;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: #fffaf2;
+}
+
+.formulario {
+    padding-left: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: .5rem outset #fffb5c;
+    border-radius: 1rem;
+}
+
+fieldset {
+    display: flex;
+    white-space: nowrap;
+    border: none;
+    padding-bottom: 1.5rem;
+    margin: .5rem;
+}
+
+.agreement {
+    padding: 2rem 0;
+}
+
+.spanForm {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
+    margin-left: 0.5rem;
+}
+.pForm {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+input, select {
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+
+input[type=radio] {
+    width:15px;
+    height:15px;
+}
+
+input[type=radio]:hover {
+    box-shadow:0px 0px 10px #fffb5c;
+}
+
+input[type=checkbox] {
+    width:15px;
+    height:15px;
+}
+
+input[type=checkbox]:hover {
+    box-shadow:0px 0px 10px #fffb5c;
+}
+
+input[type=date] {
+    background-color: blue;
+    color: #fffaf2;
+} 
+
+select {
+    background-color: blue;
+    color: white;
+}
+
+.gender, .school, .position {
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+#grade1, #grade2, #grade3, #grade4, #grade5, #preSchool {
+    margin-top:.8rem ;
+    margin-left: .5rem;
+}
+
+sup {
+    font-size: medium;
+}
+
+.liPosition1 li, .liPosition2 li, .liSize1 li, .liSize2 li {
+    list-style-type: none;
+}
+
+.liPosition1, .liSize1 {
+    margin-left: -2rem;
+}
+
+.position, .school{
+    padding-left: 0;
+}          
+
+.enviar {
+    width: 20%;
+    font-size: larger;
+    align-self: center;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: none;
+    padding-left: 0;
+}
+
+.enviar:hover {
+    background-color: black;
+    color: #fffaf2;
+}
+
+/* 18/8/22 */
+
+
+/* mapas */
+.subtMapas {
+    text-align: center;
+    color: #fffb5c;
+    font-size: xx-large;
+}
+
+.navMapa {
+    display: flex;
+    justify-content: space-around;
+    gap: 5rem;
+}
+.mapa { 
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/*ventana modal mapa */
+
+.modalmask {
+    position: fixed;
+    font-family: Arial, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    /* -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in; 
+    transition: opacity 400ms ease-in; */
+    pointer-events: none;
+}
+
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalbox{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    background: #fff;
+    border-radius:3px;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+}
+
+.movedown {
+    margin: 0 auto;
+}
+
+.modalmask:target .movedown{       
+    margin:10% auto;
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    top: 1px;
+    width: 10%;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:3px;
+    white-space: nowrap;
+}
+
+.close:hover {
+    background: #FAAC58;
+    color:#222;
+}
+
+.clickMap {
+    white-space: nowrap;
+    color: blue;
+}
+
